@@ -39,6 +39,65 @@ pipeline {
                 echo 'Running the Functional Test - Topology_2 . . .'
             }
         }
+        stage('802.1X') {
+            steps {
+                echo 'Running the Functional Test - 802.1X . . .'
+            }
+        }
+        stage('802.1X-DACL') {
+            steps {
+                echo 'Running the Functional Test - 802.1X-DACL . . .'
+            }
+        }
+        stage('Alarm') {
+            steps {
+                echo 'Running the Functional Test - Alarm . . .'
+            }
+        }
+        stage('BGP') {
+            steps {
+                echo 'Running the Functional Test - BGP . . .'
+            }
+        }
+        stage('BGP-AccessList') {
+            steps {
+                echo 'Running the Functional Test - BGP-AccessList . . .'
+            }
+        }
+        stage('CoS') {
+            steps {
+                echo 'Running the Functional Test - CoS . . .'
+            }
+        }
+        stage('DCBX') {
+            steps {
+                echo 'Running the Functional Test - DCBX . . .'
+            }
+        }
+        stage('ECMP') {
+            steps {
+                echo 'Running the Functional Test - ECMP . . .'
+            }
+        }
+        stage('ERPS') {
+            steps {
+                echo 'Running the Functional Test - ERPS . . .'
+            }
+        }
+        stage('ETS') {
+            steps {
+                echo 'Running the Functional Test - ETS . . .'
+            }
+        }
+        stage('GVRP') {
+            steps {
+                echo 'Running the Functional Test - GVRP . . .'
+            }
+        }
+
+    
+    
+    
     }
     
     

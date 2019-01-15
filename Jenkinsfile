@@ -2,8 +2,10 @@ pipeline {
     agent any
     
     stages {
-        stage('Functional Test') {
-            
+        stage('Functional Test') {          
+                steps {
+                        echo 'Running the Functional Test - 1QVLAN . . .'
+                }
                 stage('1QVLAN') {
                                 steps {
                                         echo 'Running the Functional Test - 1QVLAN . . .'

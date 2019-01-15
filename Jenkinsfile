@@ -4,8 +4,9 @@ pipeline {
     stages {
         stage('Functional Test') {          
                 steps {
-                        echo 'Running the Functional Test - 1QVLAN . . .'
+                        echo 'Running the Functional Test - Topology_1 . . .'
                 }
+        }
                 stage('1QVLAN') {
                                 steps {
                                         echo 'Running the Functional Test - 1QVLAN . . .'
@@ -31,7 +32,7 @@ pipeline {
                                     echo 'Running the Functional Test - ACL-TimeBased . . .'
                                 }
                 }            
-        }
+        
         
         stage('Functional Test - Topology_2') {
             steps {
